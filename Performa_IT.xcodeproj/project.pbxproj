@@ -15,6 +15,9 @@
 		0F2265E2260A773C009BE335 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F2265E0260A773C009BE335 /* LaunchScreen.storyboard */; };
 		0F2265ED260A773D009BE335 /* Performa_ITTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2265EC260A773D009BE335 /* Performa_ITTests.swift */; };
 		0F2265F8260A773D009BE335 /* Performa_ITUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2265F7260A773D009BE335 /* Performa_ITUITests.swift */; };
+		0F4F2974261B2A4700D3F7C4 /* MinhasEncomendasVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4F2973261B2A4700D3F7C4 /* MinhasEncomendasVC.swift */; };
+		0F4F297C261B2A5B00D3F7C4 /* EnviarEncomendaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4F297B261B2A5B00D3F7C4 /* EnviarEncomendaVC.swift */; };
+		0F4F2981261B2A7100D3F7C4 /* CentroDeDistribuicaoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4F2980261B2A7100D3F7C4 /* CentroDeDistribuicaoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		0F2265F3260A773D009BE335 /* Performa_ITUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Performa_ITUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F2265F7260A773D009BE335 /* Performa_ITUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Performa_ITUITests.swift; sourceTree = "<group>"; };
 		0F2265F9260A773D009BE335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F4F2973261B2A4700D3F7C4 /* MinhasEncomendasVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinhasEncomendasVC.swift; sourceTree = "<group>"; };
+		0F4F297B261B2A5B00D3F7C4 /* EnviarEncomendaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnviarEncomendaVC.swift; sourceTree = "<group>"; };
+		0F4F2980261B2A7100D3F7C4 /* CentroDeDistribuicaoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentroDeDistribuicaoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		0F2265D4260A7737009BE335 /* Performa_IT */ = {
 			isa = PBXGroup;
 			children = (
+				0F4F2972261B2A1800D3F7C4 /* View */,
 				0F2265D5260A7737009BE335 /* AppDelegate.swift */,
 				0F2265D7260A7737009BE335 /* SceneDelegate.swift */,
 				0F2265D9260A7737009BE335 /* ViewController.swift */,
@@ -126,6 +133,16 @@
 				0F2265F9260A773D009BE335 /* Info.plist */,
 			);
 			path = Performa_ITUITests;
+			sourceTree = "<group>";
+		};
+		0F4F2972261B2A1800D3F7C4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F4F2973261B2A4700D3F7C4 /* MinhasEncomendasVC.swift */,
+				0F4F297B261B2A5B00D3F7C4 /* EnviarEncomendaVC.swift */,
+				0F4F2980261B2A7100D3F7C4 /* CentroDeDistribuicaoVC.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +276,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F2265DA260A7737009BE335 /* ViewController.swift in Sources */,
+				0F4F2974261B2A4700D3F7C4 /* MinhasEncomendasVC.swift in Sources */,
+				0F4F2981261B2A7100D3F7C4 /* CentroDeDistribuicaoVC.swift in Sources */,
+				0F4F297C261B2A5B00D3F7C4 /* EnviarEncomendaVC.swift in Sources */,
 				0F2265D6260A7737009BE335 /* AppDelegate.swift in Sources */,
 				0F2265D8260A7737009BE335 /* SceneDelegate.swift in Sources */,
 			);
