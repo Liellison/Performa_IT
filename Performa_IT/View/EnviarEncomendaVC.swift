@@ -12,6 +12,6 @@ class EnviarEncomendaVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .blue
-        title = "Enviar Encomendas"
+        title = LocalLocalizedString("SendEnc", comment: "")
     }
 }

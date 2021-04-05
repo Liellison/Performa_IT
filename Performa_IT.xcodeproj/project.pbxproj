@@ -18,6 +18,9 @@
 		0F4F2974261B2A4700D3F7C4 /* MinhasEncomendasVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4F2973261B2A4700D3F7C4 /* MinhasEncomendasVC.swift */; };
 		0F4F297C261B2A5B00D3F7C4 /* EnviarEncomendaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4F297B261B2A5B00D3F7C4 /* EnviarEncomendaVC.swift */; };
 		0F4F2981261B2A7100D3F7C4 /* CentroDeDistribuicaoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4F2980261B2A7100D3F7C4 /* CentroDeDistribuicaoVC.swift */; };
+		0F4F2996261B858000D3F7C4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F4F2998261B858000D3F7C4 /* Localizable.strings */; };
+		0F4F299C261B99A800D3F7C4 /* LocalLocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4F299B261B99A800D3F7C4 /* LocalLocalizedString.swift */; };
+		0F4F29A1261B99F800D3F7C4 /* LocaleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4F29A0261B99F800D3F7C4 /* LocaleManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,11 @@
 		0F4F2973261B2A4700D3F7C4 /* MinhasEncomendasVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinhasEncomendasVC.swift; sourceTree = "<group>"; };
 		0F4F297B261B2A5B00D3F7C4 /* EnviarEncomendaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnviarEncomendaVC.swift; sourceTree = "<group>"; };
 		0F4F2980261B2A7100D3F7C4 /* CentroDeDistribuicaoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentroDeDistribuicaoVC.swift; sourceTree = "<group>"; };
+		0F4F298D261B850700D3F7C4 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		0F4F2997261B858000D3F7C4 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		0F4F2999261B859100D3F7C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0F4F299B261B99A800D3F7C4 /* LocalLocalizedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalLocalizedString.swift; sourceTree = "<group>"; };
+		0F4F29A0261B99F800D3F7C4 /* LocaleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,7 @@
 		0F2265D4260A7737009BE335 /* Performa_IT */ = {
 			isa = PBXGroup;
 			children = (
+				0F4F299A261B999100D3F7C4 /* Utils */,
 				0F4F2972261B2A1800D3F7C4 /* View */,
 				0F2265D5260A7737009BE335 /* AppDelegate.swift */,
 				0F2265D7260A7737009BE335 /* SceneDelegate.swift */,
@@ -113,6 +122,7 @@
 				0F2265DE260A773C009BE335 /* Assets.xcassets */,
 				0F2265E0260A773C009BE335 /* LaunchScreen.storyboard */,
 				0F2265E3260A773C009BE335 /* Info.plist */,
+				0F4F2998261B858000D3F7C4 /* Localizable.strings */,
 			);
 			path = Performa_IT;
 			sourceTree = "<group>";
@@ -143,6 +153,15 @@
 				0F4F2980261B2A7100D3F7C4 /* CentroDeDistribuicaoVC.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		0F4F299A261B999100D3F7C4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0F4F299B261B99A800D3F7C4 /* LocalLocalizedString.swift */,
+				0F4F29A0261B99F800D3F7C4 /* LocaleManager.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +249,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
 			);
 			mainGroup = 0F2265C9260A7737009BE335;
 			productRefGroup = 0F2265D3260A7737009BE335 /* Products */;
@@ -249,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F2265E2260A773C009BE335 /* LaunchScreen.storyboard in Resources */,
+				0F4F2996261B858000D3F7C4 /* Localizable.strings in Resources */,
 				0F2265DF260A773C009BE335 /* Assets.xcassets in Resources */,
 				0F2265DD260A7737009BE335 /* Main.storyboard in Resources */,
 			);
@@ -276,10 +297,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F2265DA260A7737009BE335 /* ViewController.swift in Sources */,
+				0F4F29A1261B99F800D3F7C4 /* LocaleManager.swift in Sources */,
 				0F4F2974261B2A4700D3F7C4 /* MinhasEncomendasVC.swift in Sources */,
 				0F4F2981261B2A7100D3F7C4 /* CentroDeDistribuicaoVC.swift in Sources */,
 				0F4F297C261B2A5B00D3F7C4 /* EnviarEncomendaVC.swift in Sources */,
 				0F2265D6260A7737009BE335 /* AppDelegate.swift in Sources */,
+				0F4F299C261B99A800D3F7C4 /* LocalLocalizedString.swift in Sources */,
 				0F2265D8260A7737009BE335 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,6 +343,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				0F2265DC260A7737009BE335 /* Base */,
+				0F4F298D261B850700D3F7C4 /* pt-BR */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -332,6 +356,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		0F4F2998261B858000D3F7C4 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F4F2997261B858000D3F7C4 /* pt-BR */,
+				0F4F2999261B859100D3F7C4 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -339,6 +372,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -400,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

@@ -18,11 +18,11 @@ class ViewController: UITabBarController {
         let centroVC = CentroDeDistribuicaoVC()
         
         // Setup title
-        minhaEncVC.title = "Minhas Encomendas"
+        minhaEncVC.title = LocalLocalizedString("MyEnc", comment: "")
         minhaEncVC.tabBarItem.image = UIImage(named: "MinhaEncomendaIcon")
-        enviarEncVC.title = "Enviar Encomendas"
+        enviarEncVC.title = LocalLocalizedString("SendEnc", comment: "")
         enviarEncVC.tabBarItem.image = UIImage(named: "EnviarEncomendaIcon")
-        centroVC.title = "Centro de Distribuição"
+        centroVC.title = LocalLocalizedString("Centro", comment: "")
         centroVC.tabBarItem.image = UIImage(named: "CentroDeDistribuicaoIcon")
 
         

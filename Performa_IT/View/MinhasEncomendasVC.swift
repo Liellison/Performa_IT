@@ -12,6 +12,6 @@ class MinhasEncomendasVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .red
-        title = "Minhas Encomendas"
+        title = LocalLocalizedString("MyEnc", comment: "")
     }
 }
